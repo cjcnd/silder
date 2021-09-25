@@ -1,0 +1,33 @@
+.box {
+  width: 90vw;
+  height: 150px;
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+  position: fixed;
+  z-index: 1;
+}
+
+.box:first-child {
+  background-color: red;
+}
+
+.box:nth-child(2) {
+  background-color: yellow;
+}
+
+.box:nth-child(3) {
+  background-color: green;
+}
+
+.box:nth-child(4) {
+  background-color: purple;
+}
+
+.box:last-child {
+  background-color: gray;
+}
+
+.first {
+  z-index: 100;
+}
